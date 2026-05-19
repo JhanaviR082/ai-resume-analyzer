@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI Pipeline - Resume AI
 
 on:
   push:
@@ -9,14 +9,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm install
+      # 🔥 FIX: Clean install to avoid Tailwind native binding issue
+      - name: Clean install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --legacy-peer-deps
 
       - name: Build project
         run: npm run build
