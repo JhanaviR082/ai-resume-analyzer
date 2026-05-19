@@ -1,4 +1,4 @@
-# 🚀 AI Resume Analyzer
+#  AI Resume Analyzer
 
 An AI-powered resume analysis tool that extracts skills, calculates job-fit scores, and provides gap analysis against real-world job roles.
 
@@ -6,7 +6,7 @@ Built using **Next.js + Docker + GitHub Actions + Vercel**
 
 ---
 
-# 🌐 Live Demo
+#  Live Demo
 https://resume-analyzer-flax-chi.vercel.app/
 
 ---
