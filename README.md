@@ -7,37 +7,7 @@ Built using **Next.js + Docker + GitHub Actions + Vercel**
 ---
 
 # 🌐 Live Demo
-https://your-vercel-link.vercel.app
-
----
-
-# 📸 Project Preview
-
-## 🧠 Resume Upload + AI Analysis
-Upload a PDF resume and instantly get skill extraction and scoring.
-
-![Upload Screen](screenshots/upload.png)
-
----
-
-## 📊 Skill Match & Score Dashboard
-Shows job-fit percentage, missing skills, and role analysis.
-
-![Score Dashboard](screenshots/score.png)
-
----
-
-## 🧩 Extracted Skills View
-AI extracts and categorizes skills automatically.
-
-![Skills View](screenshots/skills.png)
-
----
-
-## ⚙️ GitHub Actions CI/CD
-Automated build and test pipeline on every push.
-
-![GitHub Actions](screenshots/actions.png)
+https://resume-analyzer-flax-chi.vercel.app/
 
 ---
 
