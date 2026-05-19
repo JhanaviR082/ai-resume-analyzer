@@ -1,11 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import Navbar from '@/components/Navbar';
-import ResumeUpload from '@/components/ResumeUpload';
-import SkillCard from '@/components/SkillCard';
-import ScoreCard from '@/components/ScoreCard';
-import { analyzeResume } from '@/utils/skillMatcher';
+import Navbar from '../components/Navbar';
+import ResumeUpload from '../components/ResumeUpload';
+import SkillCard from '../components/SkillCard';
+import ScoreCard from '../components/ScoreCard';
+import { analyzeResume } from '../utils/skillMatcher';
 
 const styles = {
   main: {
