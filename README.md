@@ -19,8 +19,6 @@ docker build -t resume-ai .
 docker run -p 3000:3000 resume-ai
 ```
 
-![Docker](screenshots/docker.png)
-
 ---
 
 # 🛠️ Tech Stack
@@ -145,7 +143,3 @@ A production-ready AI Resume Analyzer with:
 
 ---
 
-# 👨‍💻 Author
-
-Jhanavi Ravishankar
-```
